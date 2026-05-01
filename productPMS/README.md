@@ -1,27 +1,41 @@
 # ProductPMS
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.1.
+ProductPMS is an Angular / TypeScript frontend project for a Property Management System. The application is intended to support property listings, tenant management, application data workflows, and future integration with a Java Spring Boot backend.
 
-## Development server
+This project was generated with Angular CLI version 18.2.1.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## Current Project Status
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This repository currently shows the Angular / TypeScript frontend side of the Property Management System.
 
-## Build
+The planned goal is to expand this project into a full-stack application using:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Angular / TypeScript frontend
+- Java Spring Boot backend
+- REST APIs
+- MySQL database
+- JPA/Hibernate
+- Postman and SQL-based validation
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Project Roadmap / Next Steps
 
-## Running end-to-end tests
+Planned next steps:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Add or organize the Java Spring Boot backend.
+2. Create REST APIs for property listings, tenants, owners, leases, maintenance requests, and payments.
+3. Connect the Angular frontend to backend REST APIs.
+4. Add MySQL database integration using JPA/Hibernate.
+5. Validate frontend-backend workflows using Postman and SQL queries.
+6. Update the README with backend setup instructions, API endpoints, and screenshots.
 
-## Further help
+Planned structure:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```text
+productPMS-project/
+├── productPMS-frontend/   # Angular / TypeScript frontend
+└── productPMS-backend/    # Java / Spring Boot / REST APIs / MySQL backend
+```
